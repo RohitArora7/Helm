@@ -1,6 +1,6 @@
 # Helm
 
-
+```bash
 helm search repo postgre
 
 helm repo add bitnami https://charts.bitnami.com/bitnami
@@ -18,3 +18,4 @@ helm install postgresql bitnami/postgresql --set postgresqlPassword=postgres --s
 helm install emcoui . --namespace emco
 
 helm uninstall emcoui
+```
