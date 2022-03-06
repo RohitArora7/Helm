@@ -18,4 +18,7 @@ helm install postgresql bitnami/postgresql --set postgresqlPassword=postgres --s
 helm install emcoui . --namespace emco
 
 helm uninstall emcoui
+
+helm pull bitnami/postgresql --untar
+
 ```
